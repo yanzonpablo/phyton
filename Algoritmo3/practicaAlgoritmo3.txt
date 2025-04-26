@@ -1,0 +1,33 @@
+--------------------------------------------------------
+Problematica:
+"El usuario quiere saber si puede entrar a una discoteca segun la edad del cliente"
+--------------------------------------------------------
+
+--------------------------------------------------------
+Algoritmo:
+1. Solicitar al usuario ingresar la edad del cliente.
+2. Verificar si la edad ingresada cumple con el requisito para ingresar a la discoteca.
+3. Mostrarmos al usuario si su cliente puede o no ingresar a la discoteca.
+--------------------------------------------------------
+
+--------------------------------------------------------
+Pseudocodigo:
+
+    // Paso 1: Solicitar al usuario ingresar la edad del cliente.
+    Mostrar mensaje: "Por favor, ingrese la edad del cliente: "
+    Leer el dato ingresado y asignarlo a variable edad.
+
+    // Paso 2: Verificar si la edad ingresada cumple con los requisito para ingresar a la discoteca.
+    Si edad es >= 18 entonces
+        asignar a la variable permitido que sea verdadero
+    Sino
+        asignar a la variable permitido que sea falso
+
+    // Paso 3: Mostrarmos al usuario si su cliente puede o no ingresar a la discoteca.
+    Si permitido es verdadero
+        Mostrar mensaje: "El cliente puede ingresar a la discoteca!"
+    Sino
+        Mostrar mensaje: "El cliente NO puede ingresar a la discoteca por ser menor de edad"
+    Fin si
+    Fin del programa
+--------------------------------------------------------
