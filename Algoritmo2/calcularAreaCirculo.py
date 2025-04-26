@@ -1,0 +1,17 @@
+import math
+# Paso 1: Solicitar al usuario ingresar el radio.
+#    Mostrar mensaje: "Por favor, ingrese el radio del circulo: "
+#    Leer el dato ingresado y asignarlo a variable radio de tipo flotante.
+radio = float(input("Por favor, ingrese el radio del circulo: "))
+
+#Paso 2: Calcular el area del circulo usando formula area=PI*radio^2.
+#    Definir y asignar a la variable area el resultado de PI*radio^2.
+
+area = math.pi * (radio ** 2)
+
+
+# Paso 3: Mostrarmos al usuario el area calculada.
+#    Mostrar mensaje: "El area del circulo con radio", radio, "es:", area
+#    Fin del programa
+
+print("El area del circulo con radio", radio, "es:", area)
