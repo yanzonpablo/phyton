@@ -1,5 +1,4 @@
 #Desafio
-#mas de 1 turno (bucle while)
 
 nombre1 = input("Como se llamara el jugador 1?: ")
 nombre2 = input("Como se llamara el jugador 2?: ")

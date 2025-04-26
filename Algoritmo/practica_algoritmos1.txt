@@ -1,0 +1,27 @@
+--------------------------------------------------------
+Problematica:
+El usuario quiere saber cuantas letras tiene una palabra
+--------------------------------------------------------
+
+--------------------------------------------------------
+Algoritmo:
+1. Solicitar al usuario ingresar la palabra.
+2. Contar las letras de la palabra ingresada.
+3. Mostrarmos al usuario la cantidad de letras que tiene la palabra ingresada.
+--------------------------------------------------------
+
+--------------------------------------------------------
+Pseudocodigo:
+
+    // Paso 1: Solicitar entrada al usuario
+    Mostrar mensaje: "Por favor, ingrese una palabra: "
+    Definir variables palabra_ingresada con la lectura de la entrada
+
+    // Paso 2: Contar la cantidad de letras
+    Definir la variable cantidad_letras y asignarle la longitud de la palabra_ingresada
+
+    // Paso 3: Mostrar al usuario el resultado
+    Mostrar mensaje: "La palabra ingresada tiene", cantidad_letras, "letras."
+
+    Fin del programa
+    --------------------------------------------------------
