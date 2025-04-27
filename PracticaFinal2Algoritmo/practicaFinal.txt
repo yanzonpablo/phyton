@@ -1,0 +1,29 @@
+--------------------------------------------------------
+Problematica:
+"La compañia estadounidense American MegaDesign tien problemas en convertir los 
+diseños de sus planos de centimetros a pulgadas"
+--------------------------------------------------------
+
+--------------------------------------------------------
+Algoritmo:
+1. Solicitar al usuario las medidas de la pieza del mueble en cms.
+2. Convertir las medidas en centimetros a pulgadas.
+3. Mostrar el las medidas convertidas en pulgadas al usuario.
+--------------------------------------------------------
+
+--------------------------------------------------------
+Pseudocodigo
+
+Inicion
+
+    // Paso 1: Solicitar al usuario las medidas de la pieza del mueble en cms.
+    Mostrar mensaje: "Por favor, ingresar las medidas de la pieza del mueble(en cms): "
+
+    // Paso 2: Convertir las medidas en centimetros a pulgadas.
+    Convertir medidas_en_pulgadas = medidas_en_cms / 2.54
+
+    // Paso 3: Mostrar el las medidas convertidas en pulgadas al usuario.
+    Mostrar mensaje: "Las medidas en pulgadas de la pieza ingresada son:", medidas_en_pulgadas: 
+
+Fin del programa
+--------------------------------------------------------
