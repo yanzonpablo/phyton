@@ -1,0 +1,44 @@
+--------------------------------------------------------
+Problematica:
+"La empresa Mexicana SuperTech esta perdiendo dinero porque en las transacciones de moneda 
+hay muchos errores de calculo realizados por el personal"
+--------------------------------------------------------
+
+--------------------------------------------------------
+Algoritmo:
+1. Definir el valor actual del Euro y Dolar con respecto al Peso Mexicano.
+2. Solicitar al usuario ingresar el tipo de conversion (Euro a Mex o Dolar a Mex).
+3. Solicitar al usuario el monto a convertir.
+4. Realizar la conversion utilizando el tipo de cambio correspondiente.
+5. Mostrar el resultado de la conversion al usuario.
+--------------------------------------------------------
+
+--------------------------------------------------------
+Pseudocodigo
+
+Inicion
+
+    // Paso 1: Definir el valor actual del Euro y Dolar con respecto al Peso Mexicano.
+    Definir tipo_cambio_eur_a_mxn = 23.70
+    Definir tipo_cambio_usd_a_mxn = 20.75
+
+    // Paso 2: Solicitar al usuario ingresar el tipo de conversion (Euro a Mex o Dolar a Mex).
+    Mostrar mensaje: "Ingrese la moneda de origen para la conversion (eur/usd): "
+
+    // Paso 3: Solicitar al usuario el monto a convertir.
+    Mostrar mensaje: "Ingrese el monto a covertir: "
+
+    // Paso 4: Realizar la conversion utilizando el tipo de cambio correspondiente.
+    // Paso 5: Mostrar el resultado de la conversion al usuario.
+    
+    Sino si tipo_conversion == "EUR"
+        calcular resultado = monto_a_convertir * tipo_cambio_eur_a_mxn
+        Mostrar "El resultado de la conversion de EUR a MXN es: ", resultado
+    Sino si tipo_conversion == "USD"
+        calcular resultado = monto_a_convertir * tipo_cambio_usd_a_mxn
+        Mostrar "El resultado de la conversion de USD a MXN es: ", resultado
+    Sino
+        Mostrar: "Mo esta disponible tipo de conversion actualmente"
+
+Fin del programa
+--------------------------------------------------------
