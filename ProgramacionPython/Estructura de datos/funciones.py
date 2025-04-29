@@ -10,30 +10,27 @@
 
 #los argumentos son los # valores reales que se pasan a la funcion cuando es llamada.
 # resultado = suma(3 + 5) # resultado es una variable local de la funcion
-"""
+
 def saludar(nombre, apellido="no hay"):
     print("Hola", nombre, apellido)
 
 saludar("sergio")
 
-''' # OJO
+# OJO
 def saludar(*nombres):
     if len(nombres) > 1:
-        print("Hola", nombres[0], nombre[1])
-        else:
-            print("Hola", nombres[0])
-'''
+        print("Hola", nombres[0], nombres[1])
+    else:
+        print("Hola", nombres[0])
+
 
 def padre_orgulloso(nene1, nene3, nene2):
     print("Soy el padre de", nene1, nene2, nene3)
     print("Y el mas chico es:", nene3)
 
 padre_orgulloso(nene1 = "Ricardito", nene2 = "Juan", nene3 = "Pedro") # uso de keyword arguments parea ordenar
-"""
+
 # ----------------------------------
-
-from calendar import c
-
 
 def devolver_mercaderia(mercaderia):
     for item in mercaderia:
